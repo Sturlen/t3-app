@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 import { CreatePost } from "~/app/_components/create-post";
 import { api } from "~/trpc/server";
 
